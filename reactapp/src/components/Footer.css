@@ -1,0 +1,29 @@
+/* Footer.css */
+.footer {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    margin-top: auto;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  
+  .footer-tagline {
+    font-style: italic;
+    opacity: 0.8;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
